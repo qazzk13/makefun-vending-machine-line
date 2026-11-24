@@ -16,7 +16,7 @@ process.umask(0o022);
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "Hey, I've been humming in this hallway all night with a bag of chips stuck halfway down my coil, so press B4, give me a little shake, and one of us might finally get lucky.";
+  "Hey, I've been humming in this hallway since Tuesday with a bag of chips stuck halfway down my coil, so go on, press B4, give me a shake, and maybe one of us gets lucky tonight.";
 
 const chars = [...LINE].length;
 if (chars < 1 || chars > 200) {
